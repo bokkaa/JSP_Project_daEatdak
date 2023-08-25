@@ -15,7 +15,7 @@
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
 
-<title>개인정보처리방침</title>
+<title>개인정보취급방침</title>
 </head>
 <body>
 	<!-- 모니터가 커져도 사이드 배너위치 고정을 위한 컨테이너 -->

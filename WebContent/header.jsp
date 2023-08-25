@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/common/css/header.css" rel="stylesheet" type="text/css" />
 <script src="${pageContext.request.contextPath}/resources/common/js/header.js" defer></script>
 
-<title>Insert title here</title>
+<title>header</title>
 </head>
 <body>
 <!-- header 전체영역 컨테이너 -->

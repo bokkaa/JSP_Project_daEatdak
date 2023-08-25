@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
-<title>개인정보처리방침</title>
+<title>개인정보 수집 및 이용</title>
 </head>
 <body>
 	<!-- 모니터가 커져도 사이드 배너위치 고정을 위한 컨테이너 -->
