@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+/* 우측 따라다니는 메뉴*/
+#floatMenu-container{
+display:none;
+    position: absolute;
+    width: 80px;
+    right:3%;
+    top: 250px;
+    z-index:9999;
+}
+
+
+
+.float-menu img {
+   
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.float-menu  {
+    width: 80px;
+    height: 200px;
+
+}
+
+
+
+.float-menu ul li {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+}
+
+.float-user-menu ul li:nth-child(2),
+.float-user-menu ul li:nth-child(1){
+    height: 60px;
+    background-color: rgb(243, 243, 243);
+
+}
+
+.float-menu ul li span {
+    font-size: 35px;
+    color: gray;
+}
+
+
+
+.float-button button {
+    background-color: rgba(128, 128, 128, 0.178);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    font-family: 'MaplestoryOTFBold';
+
+}
+
+
+
+.banner-change-section {
+    width: 80px;
+    height: 200px; 
+    overflow: hidden;
+}
+
+
+
+.banner-move{
+    display: flex;
+    width: 160px;
+    height: 200px;
+}
+
+.banner1 {
+    
+    width: 0px;
+    height: 200px;
+}
+
+.banner2 {
+    width: 80px;
+    height: 200px;
+
+}
+
+@media (max-width:1300px){
+
+    .float-menu,  .floatMenu-container {
+    width:0px;
+    height:0px
+    } 
+    
+    .banner-change-section, .float-user-menu{
+        display: none;
+    }
+   
+   .float-button {
+           background-color: rgb(243, 243, 243);
+           box-shadow: 2px 2px 2px gray;
+   
+   z-index:9999;
+   width:100px;
+     position: fixed;
+        bottom:200px;
+        right:5%;
+                border-radius: 10px;
+        
+   
+   }
+  
+    .top-button {
+		border:none;
+        width: 100%;
+        height: 40px;
+      
+    }
+}
