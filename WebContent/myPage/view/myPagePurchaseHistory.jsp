@@ -23,6 +23,7 @@
       	<%@ include file ="/slideBanner.jsp" %>
       </div>
     </div>
+    <div class="header-main-container"> 
     <div class="header">
     	<%@ include file ="/header.jsp" %>
     </div>
@@ -82,13 +83,12 @@
                     </div>
                   </div>
                 </div>
-
-
                 </div>
             </div>
         </div>
       </div>
     </main>
+    </div>
     <div class="footer">
     	<%@ include file ="/footer.jsp" %>
     </div>
