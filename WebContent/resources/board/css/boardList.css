@@ -1,0 +1,228 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+main{
+    display: block;
+    height: 100%;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.board-container{
+    display: flex;
+    margin :30px auto ;
+    width: 1024px;
+    height: 100%;
+}
+
+
+.board-main{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 90%;
+    margin:10px auto;
+}
+
+.board-title{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.title-text{
+    font-size: 40px;
+    margin-left:30px;
+    color: rgb(202, 46, 46);
+}
+
+.title-text-sub{
+    font-size: 15px;
+    margin-left:30px;
+    color: rgb(128,128,128);
+}
+
+.board-list{
+    width: 93%;
+    margin: 0 auto;
+    border-top:2px solid rgb(202, 46, 46);
+}
+
+.top{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 10px 10px;
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+}
+
+.board-list > div {
+    display: flex;
+    border-bottom:1px solid #ddd;
+}
+
+.board-list > div:last-child{
+    border-bottom: 1px solid #999;
+}
+
+.board-list > div > div{
+    display: inline-block;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.top .num{
+    margin-left: 60px;
+}
+
+.top .title{
+    margin-left: 230px;
+}
+
+.top .writer{
+    margin-left:205px;
+}
+
+.top .date{
+    margin-left: 55px;
+}
+
+.top .count{
+    margin-left: 90px;
+}
+
+.post{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    font-size: 14px;
+}
+
+.post .num{
+    width: 10%;
+}
+
+.post .title{
+    width: 50%;
+}
+
+.post .writer{
+    width: 10%;
+}
+
+.post .date{
+    width:20%
+}
+
+.post .count{
+    width: 10%;
+}
+
+        /* 하단부 검색, 페이징, 글 등록 컨테이너 */
+.board-list-bottom{
+    display: flex;
+}
+
+.board-search-container > form{
+    height: 90px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+
+form > select{
+    margin-top: 10px;
+    margin-right: 3px;
+}
+
+form > input{
+    margin-top: 10px;
+}
+
+form > button{
+    cursor: pointer;
+    border: none;
+    width: 40px;
+    height: 34px;
+    background-color: white;
+    margin-top: 15px;
+}
+
+
+
+.on {   
+    background-color: rgb(202, 46, 46);
+    color: #fff;
+    font-weight: bold;
+}
+
+.board-page {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    font-size: 0;
+    margin: 30px auto;
+    width: 35%;
+}
+
+.board-page a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    border-left: 0;
+    line-height: 100%;
+    font-size: 15px;
+}
+
+.board-page a.bt {
+    padding-top: 9px;
+}
+
+.board-page a.num {
+    padding-top: 9px;
+    font-size: 15px;
+}
+
+
+.board-page a:first-child {
+    border-left: 1px solid #ddd;
+}
+
+.board-search-container{
+    margin: auto 33px auto 30px;
+    width: 35%;
+}
+
+.bt-container{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 35px;
+    width: 30%;
+}
+
+.board-write{
+    width: 44px;
+    height: 25px;
+    background-color:rgb(202, 46, 46);;
+    color: white;
+    border-radius: 10%;
+}
