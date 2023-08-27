@@ -14,8 +14,7 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<!-- 개인 resource -->
-	<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/board/css/boardPasswordCheck.css" rel="stylesheet" type="text/css" />
-	<script src="${pageContext.request.contextPath}/resources/board/js/boardPasswordCheckDel.js" defer></script>
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/myPage/css/myPageMain.css" rel="stylesheet" type="text/css" />
  </head>
   <body>
     <div class="side-banner-container">
@@ -24,35 +23,53 @@
       	<%@ include file ="/slideBanner.jsp" %>
       </div>
     </div>
-    <div class="header-main-container">
     <div class="header">
     	<%@ include file ="/header.jsp" %>
     </div>
-  	<main>
-   	    <div class="board-container">
-        <div class="board-main">
-            <!-- 문의게시판 title -->
-            <div class="board-title">
-               <div class="title-text">문의 게시판</div>
+    <main>
+	      <div class="myPage-container">
+        <!-- 마이 페이지 사이드 메뉴바 -->
+        <div class="sidemenu">
+          <!-- 사이드 메뉴바 아이템 -->
+            <div class="side-item">
+              <a href="${pageContext.request.contextPath}/myPage/view/myPageMain.jsp">
+                <div class="content-text on">회원정보 수정</div>
+              </a> 
             </div>
-
-            <div class="password-check-container">
+            <div class="side-item">
+              <a href="${pageContext.request.contextPath}/myPage/view/myPagePurchaseHistory.jsp">
+                <div class="content-text">구매 내역</div>
+              </a>
+            </div>
+            <div class="side-item">
+              <a href="${pageContext.request.contextPath}/myPage/view/myPageWishList.jsp">
+                <div class="content-text">찜 목록</div>
+              </a>
+            </div>
+        </div>
+        <div class="myPage-main">
+            <!-- 마이 페이지 title -->
+            <div class="myPage-title">
+               <div class="title-text">회원정보 수정</div>
+            </div>
+            <!-- 카테고리 별 메인 컨텐츠 -->
+            <div class="myPage-main-contents">
+              <div class="password-check-container">
                 <div class="password-check-box">
                     <div class="password-check-box-inner">
                         <b>비밀번호를 입력하세요.</b>
                         <input class="content-password" type="password" id="inputPassword" maxlength="4">
                         <div class="inner-btnBox">
                             <button class="btn cancle" onclick="history.go(-1)">취소</button>
-                            <button class="btn admit" onclick="checkPassword()">확인</button>
+                            <button class="btn admit" onclick="location.href='${pageContext.request.contextPath}/myPage/view/myPageUserConfig.jsp'">확인</button>
                         </div>
                     </div>
                 </div>
             </div>
-
+            </div>
         </div>
       </div>
     </main>
-    </div>
     <div class="footer">
     	<%@ include file ="/footer.jsp" %>
     </div>

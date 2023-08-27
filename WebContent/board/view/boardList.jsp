@@ -6,7 +6,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>다잇닭</title>
-    <link rel="stylesheet" href="../css/board_list.css"/>
     <!-- 폰트 -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap" rel="stylesheet"/>
@@ -24,7 +23,7 @@
          	<%@ include file ="/slideBanner.jsp" %>
          </div>
      </div>
-     
+    <div class="header-main-container"> 
     <div class="header">
     	<%@ include file="/header.jsp" %>
     </div>
@@ -49,7 +48,7 @@
 
               <div class="post">
                 <div class="num">12</div>
-                <div class="title"><a href ="board_view.html">코딩 너무 재밌다</a></div>
+                <div class="title"><a href ="${pageContext.request.contextPath}/board/view/boardView.jsp">코딩 너무 재밌다</a></div>
                 <div class="witer">김성찬</div>
                 <div class="date">2023-08-18</div>
                 <div class="count">1056</div>
@@ -57,14 +56,14 @@
 
               <div class="post">
                 <div class="num">11</div>
-                <div class="title"><a href ="board_view.html">코딩 너무 재밌다</a></div>
+                <div class="title"><a href ="${pageContext.request.contextPath}/board/view/boardView.jsp">코딩 너무 재밌다</a></div>
                 <div class="witer">김성찬</div>
                 <div class="date">2023-08-18</div>
                 <div class="count">1056</div>
               </div>
               <div class="post">
                 <div class="num">10</div>
-                <div class="title"><a href ="board_view.html">코딩 너무 힘들다</a></div>
+                <div class="title"><a href ="${pageContext.request.contextPath}/board/view/boardView.jsp">코딩 너무 힘들다</a></div>
                 <div class="witer">김성찬</div>
                 <div class="date">2023-08-18</div>
                 <div class="count">1056</div>
@@ -72,14 +71,14 @@
 
               <div class="post">
                 <div class="num">9</div>
-                <div class="title"><a href ="board_view.html">코딩 너무 재밌다</a></div>
+                <div class="title"><a href ="${pageContext.request.contextPath}/board/view/boardView.jspl">코딩 너무 재밌다</a></div>
                 <div class="witer">김성찬</div>
                 <div class="date">2023-08-18</div>
                 <div class="count">1056</div>
               </div>
               <div class="post">
                 <div class="num">8</div>
-                <div class="title"><a href ="board_view.html">코딩 너무 재밌다</a></div>
+                <div class="title"><a href ="${pageContext.request.contextPath}/board/view/boardView.jsp">코딩 너무 재밌다</a></div>
                 <div class="witer">김성찬</div>
                 <div class="date">2023-08-18</div>
                 <div class="count">1056</div>
@@ -87,7 +86,7 @@
 
               <div class="post">
                 <div class="num">7</div>
-                <div class="title"><a href ="board_view.html">코딩 너무 재밌다</a></div>
+                <div class="title"><a href ="${pageContext.request.contextPath}/board/view/boardView.jsp">코딩 너무 재밌다</a></div>
                 <div class="witer">김성찬</div>
                 <div class="date">2023-08-18</div>
                 <div class="count">1056</div>
@@ -96,7 +95,7 @@
 
               <div class="post">
                 <div class="num">6</div>
-                <div class="title"><a href ="board_view.html">코딩 너무 재밌다</a></div>
+                <div class="title"><a href ="${pageContext.request.contextPath}/board/view/boardView.jsp">코딩 너무 재밌다</a></div>
                 <div class="witer">김성찬</div>
                 <div class="date">2023-08-18</div>
                 <div class="count">1056</div>
@@ -104,14 +103,14 @@
 
               <div class="post">
                 <div class="num">5</div>
-                <div class="title"><a href ="board_view.html">코딩 너무 재밌다</a></div>
+                <div class="title"><a href ="${pageContext.request.contextPath}/board/view/boardView.jsp">코딩 너무 재밌다</a></div>
                 <div class="witer">김성찬</div>
                 <div class="date">2023-08-18</div>
                 <div class="count">1056</div>
               </div>
               <div class="post">
                 <div class="num">4</div>
-                <div class="title"><a href ="board_view.html">코딩 너무 힘들다</a></div>
+                <div class="title"><a href ="${pageContext.request.contextPath}/board/view/boardView.jsp">코딩 너무 힘들다</a></div>
                 <div class="witer">김성찬</div>
                 <div class="date">2023-08-18</div>
                 <div class="count">1056</div>
@@ -119,14 +118,14 @@
 
               <div class="post">
                 <div class="num">3</div>
-                <div class="title"><a href ="board_view.html">코딩 너무 재밌다</a></div>
+                <div class="title"><a href ="${pageContext.request.contextPath}/board/view/boardView.jsp">코딩 너무 재밌다</a></div>
                 <div class="witer">김성찬</div>
                 <div class="date">2023-08-18</div>
                 <div class="count">1056</div>
               </div>
               <div class="post">
                 <div class="num">2</div>
-                <div class="title"><a href ="board_view.html">코딩 너무 재밌다</a></div>
+                <div class="title"><a href ="${pageContext.request.contextPath}/board/view/boardView.jsp">코딩 너무 재밌다</a></div>
                 <div class="witer">김성찬</div>
                 <div class="date">2023-08-18</div>
                 <div class="count">1056</div>
@@ -134,7 +133,7 @@
 
               <div class="post">
                 <div class="num">1</div>
-                <div class="title"><a href ="board_view.html">코딩 너무 재밌다</a></div>
+                <div class="title"><a href ="${pageContext.request.contextPath}/board/view/boardView.jsp">코딩 너무 재밌다</a></div>
                 <div class="witer">김성찬</div>
                 <div class="date">2023-08-18</div>
                 <div class="count">1056</div>
@@ -166,13 +165,13 @@
                   <a href="#" class="bt last">>></a> -->
                 </div>
                 <div class="bt-container">
-                    <a href="./board_write.html" class="board-write">등록</a>
+                    <a href="${pageContext.request.contextPath}/board/view/boardWrite.jsp" class="board-write">등록</a>
                 </div>
           </div>
-
         </div>
       </div>
     </main>
+    </div>
     <div class="footer">
     	<%@ include file="/footer.jsp" %>
     </div>

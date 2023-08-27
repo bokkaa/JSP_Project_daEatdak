@@ -3,27 +3,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>다잇닭</title>
-      <link rel="stylesheet" href="../css/board_view.css"/>
-      <!-- 폰트 -->
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap" rel="stylesheet"/>
-      <link rel="stylesheet" href="/common/css/common.css"/>
-      <link rel="stylesheet" href="/common/css/header.css"/>
-      <link rel="stylesheet" href="/common/css/footer.css"/>
-      <link rel="shortcut icon" type="image/x-icon" href="/common/img/logoPic.png" alt="타이틀 로고" />
-      <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-      <script src="/common/js/common.js" defer></script>
-      <script src="/common/js/header.js" defer></script>
-  </head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>다잇닭</title>
+    <!-- 폰트 -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap" rel="stylesheet"/>
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/common/css/common.css" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" type="image/x-icon" href="${pageContext.request.contextPath}/resources/common/img/logoPic.png" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/board/js/boardView.js" defer></script>
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/board/css/boardView.css" rel="stylesheet" type="text/css" />
+ </head>
   <body>
     <div class="side-banner-container">
       <!-- 사이드 배너 영역 -->
-      <div class="side-banner"></div>
+      <div class="side-banner">
+      	<%@ include file ="/slideBanner.jsp" %>
+      </div>
     </div>
+    <div class="header-main-container">
     <div class="header">
+    	<%@ include file ="/header.jsp" %>
     </div>
     <main>
       <div class="board-container">
@@ -69,9 +71,9 @@
               </div>
               <!-- 게시글 버튼 컨테이너 -->
               <div class="bt-container">
-                <a href="../html/board_list.html" class="board-home">글 목록</a>
-                <a href="./board_passwordCheck_config.html" class="board-fix">수정</a>
-                <a href="./board_passwordCheck_del.html" class="board-delete">삭제</a>
+                <a href="${pageContext.request.contextPath}/board/view/boardList.jsp" class="board-home">글 목록</a>
+                <a href="${pageContext.request.contextPath}/board/view/boardPasswordCheckConfig.jsp" class="board-fix">수정</a>
+                <a href="${pageContext.request.contextPath}/board/view/boardPasswordCheckDel.jsp" class="board-delete">삭제</a>
               </div>
               <div class="comment-container">
                 <div class="comment-title">댓글</div>
@@ -118,7 +120,9 @@
         </div>
       </div>
     </main>
+    </div>
     <div class="footer">
+    	<%@ include file ="/footer.jsp" %>
     </div>
   </body>
 </html>

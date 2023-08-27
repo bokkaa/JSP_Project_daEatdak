@@ -1,0 +1,210 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+main{
+    display: block;
+    height: 100%;
+}
+
+a{  
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.myPage-container{
+    display: flex;
+    margin :30px auto ;
+    width: 1024px;
+    height: 100%;
+    min-height: 550px;
+}
+
+.sidemenu{
+    width: 190px;
+    height: 90%;
+    min-height: 530px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #E6E6E6;
+}
+
+
+.side-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid #eee;
+    margin-bottom: 10px; 
+}
+
+.side-item:first-child{
+    border: none;
+}
+
+.content-text{
+    font-size: 23px;
+    margin : 0 auto 0;
+}
+
+.content-text.on{
+    color: rgb(202, 46, 46);
+}
+
+.myPage-title{
+    display: flex;
+    width: 300px;
+    height: 70px;
+    color: rgb(202, 56, 46);
+}
+
+.title-text{
+    font-size: 30px;
+    margin-left:30px
+}
+
+.myPage-main{
+    display: flex;
+    flex-direction: column;
+    top:12%;
+    left: 31%;
+    width: 790px;
+    min-height:550px;
+    height:100%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.myPage-main{
+    display: flex;
+    flex-direction: column;
+    top:12%;
+    left: 31%;
+    width: 790px;
+    min-height:550px;
+    height:100%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.myPage-main-contents{
+    width: 93%;
+    min-height: 610px;
+    height: 100%;
+    border-top:2px solid rgb(202, 56, 46);
+    margin: 0 auto;
+    padding-top: 10px;
+    display: flex;
+    border-bottom: 1px solid #E6E6E6;
+}
+.config-box{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 10px;
+    width: 93%;
+    height: 100%;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    border-bottom:1px solid #e6e6e6;
+}
+.box:last-child{
+    border: none;
+}
+
+.box > input{
+    border: 1px solid #e6e6e6;
+    height: 28px;
+}
+
+
+
+.box.address{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+.box.address > div{
+    display: flex;
+}
+.box.address > div > input{
+    border: 1px solid #e6e6e6;
+    height: 28px;
+}
+#check{
+    font-size: 11px;
+}
+.box.name > input{
+    margin-left: 110px;
+}
+.box.id > input{
+    margin-left: 96px;
+}
+.box.password > input{
+    margin-left: 82px;
+}
+.box.password.check > input{
+    margin-left: 50px;
+}
+.email{
+    margin-left: 96px;
+    
+}
+.email > input{
+    border: 1px solid #e6e6e6;
+    height: 28px;
+}
+
+.email > select{
+    border: 1px solid #e6e6e6;
+    height: 28px;
+}
+
+.box.phone > input{
+    margin-left: 82px;
+}
+
+.box.address > div > input{
+    margin-top: 10px;
+    margin-left: 110px;
+    margin-right: 5px;
+    width:300px;
+}
+
+.box.address>input{
+    margin-top: 10px;
+    width: 355px;
+    margin-left: 137px;
+    border: 1px solid #e6e6e6;
+    height: 300px;
+    padding: 3px 0;
+}
+
+.box.address > div{
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+}
+
+.address-btn{
+    margin-top: 10px;
+    height: 28px;
+    color: white;
+    border: none;
+    padding: 0 3px;
+    cursor: pointer;
+    border-radius: 10%;
+    background-color: rgb(202, 46, 46);
+}

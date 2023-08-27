@@ -6,7 +6,7 @@ function checkPassword(){
         const deleteConfirm = confirm("삭제하시겠습니까?");
         if(deleteConfirm){
             alert("삭제되었습니다.");
-            window.location.href="../html/board_list.html";
+            window.location.href="${pageContext.request.contextPath}/board/view/boardList.jsp";
         }
 
     }else{
