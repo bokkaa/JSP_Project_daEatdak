@@ -1,0 +1,120 @@
+body {
+  background: #EEE;
+  font-family: 'Roboto', sans-serif;
+}
+
+.dropzone {
+
+/*  width: 98%;*/
+  border: 2px solid #3498db !important;
+  border-radius: 10px;
+  -webkit-transition: .2s;
+  transition: .2s;
+/*  margin-right: 50px;
+  margin: 1%;
+
+*/
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.dropzone.dz-drag-hover {
+  border: 2px solid #3498db !important;
+}
+
+.dz-message.needsclick img {
+  width: 50px;
+  display: block;
+  margin: auto;
+  opacity: .6;
+  margin-bottom: 15px;
+}
+
+span.plus {
+  display: none;
+}
+
+.dropzone.dz-started .dz-message {
+  display: inline-block !important;
+  width: 120px;
+  float: right;
+  border: 1px solid rgba(238, 238, 238, 0.36);
+  border-radius: 30px;
+/*  height: 120px;*/
+  margin: 16px;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.dropzone.dz-started .dz-message span.text {
+  display: none;
+}
+
+.dropzone.dz-started .dz-message span.plus {
+  display: block;
+  font-size: 70px;
+  color: #AAA;
+  line-height: 110px;
+}
+
+.iup {
+  margin-left: 20px;
+  width: 400px;
+  height: 400px;
+}
+
+form {
+  width: 400px;
+  height: 400px;
+
+}
+
+.uploadImg {
+  width: 200px;
+  height: 250px;
+}
+
+.dz-image img {
+  width: 50px;
+  height: 50px;
+}
+
+
+
+
+
+.list-unstyled {
+  width: 300px;
+  height: 100%;
+  margin-left: 20px;
+}
+
+.img-List {
+  border: 1px dashed blue;
+  width: 850px;
+  height: 400px;
+  margin-left: 20px;
+  overflow: auto;
+  overflow-x: hidden;
+
+}
+
+.img-List::-webkit-scrollbar {
+  width: 10px;
+}
+
+.img-List::-webkit-scrollbar-thumb {
+  background-color: darkblue;
+  border-radius: 5px;
+}
+
+.img-List::-webkit-scrollbar-track {
+  background-color: grey;
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 10px white;
+}
+
+
+
