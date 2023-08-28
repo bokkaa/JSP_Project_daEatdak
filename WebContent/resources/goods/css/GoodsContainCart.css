@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+.container{
+    width: 100%;
+
+}
+
+.cart_main{
+    width: 1024px;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+}
+
+.cart_main_top{
+    border-bottom: 2px solid #999;
+    padding-bottom: 10px;
+}
+
+.cart_name{
+    margin-top: 50px;
+    font-size: 20px;
+    color:  black;
+
+}
+
+.cart_main_bottom{
+    min-height: 700px;
+}
+
+.checkbox-area{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.checkbox-check{
+    position: relative;
+}
+
+.checkbox-area .checkbox-check{
+   float: left; 
+}
+
+.checkbox-area .button-click{
+    float: right;
+    padding-right: 10px;
+}
+.button-click button{
+    border: 1px solid #666;
+    border-radius: 10%;
+}
+
+
+.button-click button:first-child{
+    color: #666;}
+
+.cart-input{
+    margin-top: 10px;
+}
+.goods{
+    margin: 0px;
+}
+
+.goods li{
+    box-sizing: border-box;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid #999;
+}
+
+
+.checkbox-area{
+    padding-left: 5px;
+}
+.img-area img{
+    width: 80px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+.goods-text-area{
+    padding-left: 10px;
+}
+.goods-text-area span{
+    padding: 10px 0px;
+}
+
+.order-choice{
+    padding-left: 350px;
+}
+
+.order-choice span{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.order-choice div{
+    border: 1px solid #999;
+    width: 80px;
+    
+}
+
+.order-choice button{
+    border: none;
+    width: 20px;
+    background-color: white;
+  
+}
+
+.price{
+    padding-left: 20px;
+}
+
+
+.product-order{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.product-order span{
+    display: inline-block;
+    font-size: 25px;
+    background-color: white;
+    color: rgba(94,190,231);
+    border: 1px solid rgba(94,190,231);
+    width: 300px;
+    border-radius: 5%;
+    cursor: pointer;
+}
