@@ -28,8 +28,8 @@
                 <div class="page-top">
                 <%--<h2>태그에는 차후 메인페이지에서 상품검색 후 요청한 이름을 
                 받아서 페이지에 보일수 있게 한다 --%>
-                <%--데이터 베이스를 설계시 페이지를 다시 구현할필요가 있음 --%>
-                    <h2 class="page-name">닭고기를 검색해봤어요!</h2>
+                <%--데이터 베이스를 설계시 페이지를 다시 구현할필요가 있음 --%>S
+                    <h2 class="page-name"><"${search}">를 검색해봤어요!</h2>
                 </div>
                 <div class="product-inter">
                     <ul class="product-list">

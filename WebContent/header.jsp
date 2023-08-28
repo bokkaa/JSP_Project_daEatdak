@@ -88,11 +88,11 @@
            
             <!-- 검색 부분 -->
             <div class="search-container">
-                <form action=""> 
+                <form action="/MyServlet" method="get"> 
                     <fieldset style="border: none;">
                         <legend style="display: none;">검색창</legend>
                         <label for="search">
-                            <input type="text" id="search" />
+                            <input type="text" id="search" value=""/>
                         </label>
                         <button type="submit">
                             <span class="material-symbols-outlined">

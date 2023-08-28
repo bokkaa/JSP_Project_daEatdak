@@ -35,7 +35,7 @@
                                <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png" alt="상품이미지">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png" alt="상품이미지">
                                     </a>
                                 </figure>
                              </form>
@@ -53,7 +53,7 @@
                                  <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
@@ -71,7 +71,7 @@
                                  <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
@@ -89,7 +89,7 @@
                                  <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
@@ -107,7 +107,7 @@
                               <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
@@ -125,7 +125,7 @@
                              <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
@@ -143,7 +143,7 @@
                               <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
@@ -161,7 +161,7 @@
                                 <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
@@ -179,7 +179,7 @@
                                 <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
@@ -197,7 +197,7 @@
                                   <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
@@ -215,7 +215,7 @@
                                 <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
@@ -233,7 +233,7 @@
                                <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
@@ -251,7 +251,7 @@
                                   <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
@@ -269,7 +269,7 @@
                             <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
@@ -287,7 +287,7 @@
                                <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
@@ -305,7 +305,7 @@
                                <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
@@ -323,7 +323,7 @@
                                 <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
@@ -341,7 +341,7 @@
                               <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
@@ -359,7 +359,7 @@
                               <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
@@ -377,7 +377,7 @@
                                 <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
@@ -395,7 +395,7 @@
                               <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
@@ -413,7 +413,7 @@
                               <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
@@ -431,7 +431,7 @@
                              <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
@@ -449,7 +449,7 @@
                                 <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
@@ -467,7 +467,7 @@
                                 <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
@@ -485,7 +485,7 @@
                                <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
@@ -503,7 +503,7 @@
                             <form action="" method="get">
                                 <figure class="img">
                                     <a href="">
-                                        <img class="cow" src="./resources/goods/img/cow03.png">
+                                        <img class="cow" src="${pageContext.request.contextPath}resources/goods/img/cow03.png">
                                     </a>
                                 </figure>
                              </form>
