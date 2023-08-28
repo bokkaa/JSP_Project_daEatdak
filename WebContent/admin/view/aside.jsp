@@ -28,9 +28,9 @@
 				src="${pageContext.request.contextPath}/resources/admin/img/mainLogo01.png">
 			</a>
 		</div>
-		<a href="adminMain.jsp"><div class="admin_menu">메인화면</div></a> <a
-			href="adminMemberInfo.jsp"><div class="admin_menu">회원정보</div></a> <a
-			href="adminProductInfo.jsp"><div class="admin_menu">상품관리</div></a> <a
+		<a href="adminMain.jsp"><div class="adminMenu">메인화면</div></a> <a
+			href="adminMemberInfo.jsp"><div class="adminMenu">회원정보</div></a> <a
+			href="adminProductInfo.jsp"><div class="adminMenu">상품관리</div></a> <a
 			href="${pageContext.request.contextPath}/board/view/boardList.jsp"><div
 				class="admin_menu">문의게시판</div></a>
 	</div>

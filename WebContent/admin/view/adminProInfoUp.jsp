@@ -7,14 +7,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>다잇닭</title>
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/admin/css/admin_main.css">
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/admin/css/admin_productInfo.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/admin/css/adminMain.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/admin/css/adminProductInfo.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/admin/css/imgUpload.css">
 
     <script src="https://code.jquery.com/jquery-3.7.0.js"
         integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
-    <script src="${pageContext.request.contextPath}/resources/admin/js/admin_productInfo.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/admin/js/admin_productRegist.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/admin/js/adminProductInfo.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/admin/js/adminProductRegist.js"></script>
 
 
     <!-- Plugin -->
