@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-<<<<<<< HEAD
 =======
         
     <wb-module deploy-name="jsp_daEatdak">
@@ -11,7 +10,6 @@
         <property name="context-root" value="jsp_daEatdak"/>
                 
         <property name="java-output-path" value="/jsp_daEatdak/build/classes"/>
->>>>>>> 42f234829391f147c5b36996a178178c1557f756
             
     
     <wb-module deploy-name="jsp_daEatdak">
